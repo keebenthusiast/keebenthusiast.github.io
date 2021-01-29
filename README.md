@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## About me
 
-You can use the [editor on GitHub](https://github.com/keebenthusiast/keebenthusiast.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am a Computer Science graduate who achieved a Bachelors in December of 2020.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Personal Projects
 
-### Markdown
+I sort these from newest to oldest. Feel free to drop by my linkedin to see what projects I have done professionally.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I've also done a good amount of tiny projects during my time in college and university, feel free to ask about those if desired.
 
-```markdown
-Syntax highlighted code block
+### kiss-light hub
+[repository](https://gitlab.com/kiss-light-project/Kiss-Light_Hub) - Successor to the server, it takes a more modern approach to home automation utilizing mqtt to communicate with wifi-connected goodies that utilize the [tasmota firmware](https://tasmota.github.io/docs/). This hub also uses the kiss-light protocol, though it is slightly adapted for this server and error codes are now documented in the README. V0.1 is currently deployed on a Raspberry Pi 4, and porting it to an OpenWRT-enabled Linksys WRT1900ACS is currently in the works.
 
-# Header 1
-## Header 2
-### Header 3
+### kiss-light server
+[repository](https://gitlab.com/keebenthusiast/kiss-light) - The original kiss-light project, it utilized the gpio of a typical Raspberry Pi with 40 pins connected to an RF transmitter and Receiver. This project also introduced the kiss-light protocol, an http-inspired protocol which is used to change the saved device's states, add a new device or remove a current device, and list devices currently stored on the server. The v0.5 release replaced the wiringPi libraries with pigpio as wiringPi became deprecated, and is usable if desired. This project was also utilized in my senior project with 5 others where we made an app to communicate with the server.
 
-- Bulleted
-- List
+## Contact
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/keebenthusiast/keebenthusiast.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[mail](mailto:cakmf68@outlook.com) | [linkedin](https://www.linkedin.com/in/christian-kissinger-09703b1b4/) | [github](https://github.com/keebenthusiast) | [gitlab](https://gitlab.com/keebenthusiast)
